@@ -6,6 +6,6 @@ jobs:
     name: test
     steps:
       - uses: actions/checkout@v4
-      - uses: .
+      - uses: ./.
         with:
           who-to-greet: "Mona the Octocat"
