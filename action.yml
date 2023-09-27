@@ -1,9 +1,9 @@
-name: 'Summarized Status'
+name: "Summarized Status"
 description: |
   Summarize Status multiple CIs (like Github Actions workflow).
   Useful when you want to use `Require status checks to pass before merging` with monorepo (paths).
 runs:
   using: "composite"
   steps:
-    - run: goodbye.sh
+    - run: ./goodbye.sh
       shell: bash
