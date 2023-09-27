@@ -1,14 +1,7 @@
-name: 'Hello World'
-description: 'Greet someone'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
-outputs:
-  random-number:
-    description: "Random number"
-    value: ${{ steps.random-number-generator.outputs.random-number }}
+name: 'Summarized Status'
+description: |
+  Summarize Status multiple CIs (like Github Actions workflow).
+  Useful when you want to use `Require status checks to pass before merging` with monorepo (paths).
 runs:
   using: "composite"
   steps:
