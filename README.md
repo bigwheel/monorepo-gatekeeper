@@ -14,3 +14,20 @@ Its cost is high. If you have only one target workflow, Github Actions running c
 Another improvement is image build.
 Original is [Docker Action](https://docs.github.com/en/actions/creating-actions/about-custom-actions). Therefore, docker image build needed before execution.
 This action is Composite Action. Then no need to build anything.
+
+## Summarized Status vs Merge Gatekeeper
+
+Summarized Status Pros:
+
+- less running time (= less cost)
+- Re-evaluate status automatically when you re-run failed job
+
+Merge Gatekeeper Pros:
+
+- Simple workflow definition
+- No need to edit every time you add a workflow
+- Gatekeeper workflow and subjest workflows are more isolated
+
+# Designer's memo
+
+If github changes check_run / check_suite event behaviors, this actions can be writtern more simply.
