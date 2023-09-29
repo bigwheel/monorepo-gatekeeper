@@ -26,7 +26,7 @@ Merge Gatekeeper Pros:
 
 - Simple workflow definition
 - No need to edit every time you add a workflow
-- Gatekeeper workflow and subjest workflows are more isolated
+- Gatekeeper workflow and subject workflows are more isolated
 
 # Designer's memo
 
