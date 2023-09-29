@@ -30,4 +30,6 @@ Merge Gatekeeper Pros:
 
 # Designer's memo
 
-If github changes check_run / check_suite event behaviors, this actions can be writtern more simply.
+Firstly, I try to use `check_run` and/or `check_suite` event.
+However, they did not work as expected. Not fired completely (I guess that the cause is target Check Suites / Check Runs are created by GitHub Actions).
+If github changes check_run / check_suite event behaviors, this actions can be written more simply.
