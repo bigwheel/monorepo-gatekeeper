@@ -5,7 +5,5 @@ description: |
 runs:
   using: "composite"
   steps:
-    - run: echo "${{ github.action_path }}" >> $GITHUB_PATH
-      shell: bash
-    - run: goodbye.sh
+    - run: echo "${{ github.event_name }}"
       shell: bash
